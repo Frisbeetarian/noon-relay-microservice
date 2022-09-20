@@ -1,0 +1,15 @@
+{
+  "name": "relay-microservice",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.17.0",
+    "@noon/rabbit-mq-rpc": "^0.0.19",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1"
+  }
+}
